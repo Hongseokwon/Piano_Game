@@ -10,6 +10,11 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
+Piano_Game/Library/
+Piano_Game/Temp/
+Piano_Game/Obj/
+Piano_Game/Logs/
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
