@@ -17,12 +17,11 @@ public class Scene_Manager : MonoBehaviour
         if (null == instance)
         {
             instance = this;
+            DontDestroyOnLoad(this.gameObject);
         }
         else
         {
             Destroy(this.gameObject);
-
-            DontDestroyOnLoad(this.gameObject);
         }
     }
 
